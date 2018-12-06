@@ -2,9 +2,9 @@ from csv import DictWriter, QUOTE_MINIMAL
 from urllib.parse import urlencode
 from lxml import etree
 
-FILENAME = "MIDAS_Export_26102018.xml"
+FILENAME = "import/MIDAS_Export_26102018.xml"
 
-OUTPUT = "lichtspiel.csv"
+OUTPUT = "data/lichtspiel.csv"
 
 SCHEMA = {
 	'id':		None, 
@@ -19,7 +19,7 @@ SCHEMA = {
 	'text_en': 	'./ContentDescription/Content/[@Language="Englisch"]',
 }
 
-MAX_ROWS = 5
+MAX_ROWS = 500000
 
 
 #import xmltodict, json
