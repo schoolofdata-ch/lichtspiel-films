@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MIDASExport>
+  <ExportSender>Lichtspiel</ExportSender>
+  <ExportDate>2018-10-26</ExportDate>
+  <FilmCount>5640</FilmCount>
+  <ExportFilms>
+    <Film ContentID="160943">
+      <Titles>
+        <Title Type="default"><![CDATA[L'heure h]]></Title>
+      </Titles>
+      <CountryOfOrigin><![CDATA[SZ]]></CountryOfOrigin>
+      <YearOfProduction>1936</YearOfProduction>
+      <FilmType ID="314"><![CDATA[Dokumentar]]></FilmType>
+      <OriginalLength Type="Min" AutoCalculated="false">21</OriginalLength>
+      <FilmingLocations>
+      </FilmingLocations>
+      <ProductionCompany ID="27015"><![CDATA[ ]]></ProductionCompany>
+      <CrewCast>
+        <Person>
+          <Name ID="49741"><![CDATA[Jacques Boolski]]></Name>
+          <RoleFunction ID="89"><![CDATA[Regie]]></RoleFunction>
+        </Person>
+      </CrewCast>
+      <ContentDescription>
+        <Content Type="default" Language="default"><![CDATA[Geschichte über die Entstehung eines Films im Hinblick auf den nationalen Wettbewerb. Auswahl des Drehbuchs nach zwei, drei verworfenen Ideen. Die Kamera wird dem Kameramann übergeben. Vorbereitung der Arbeitsfläche.
+]]></Content>
+        <Content Type="foreign" Language="Englisch"><![CDATA[Story of the creation of a film for the national competition of amateur filmmakers. Selection of the film script after two, three rejected ideas. The camera will be given to the cameraman.]]></Content>
+      </ContentDescription>
+      <Copies>
+        <Film CopyID="160945">
+          <FilmFormat ID="320">16mm</FilmFormat>
+          <AspectRatio ID="157">1.33</AspectRatio>
+          <Sound>
+            <Format ID="253"><![CDATA[ohne Tonspur]]></Format>
+          </Sound>
+          <Colour ID="224"><![CDATA[s/w]]></Colour>
+          <CopyLength Type="Meter">170.00</CopyLength>
+          <CopyType ID="1"><![CDATA[Positiv]]></CopyType>
+          <HoldingOrganisation><![CDATA[Lichtspiel]]></HoldingOrganisation>
+        </Film>
+      </Copies>
+    </Film>
+  </ExportFilms>
+</MIDASExport>

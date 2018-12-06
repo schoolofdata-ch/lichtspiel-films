@@ -1,0 +1,96 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "lichtspiel.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "description": "Database identifier of the film"
+          },
+          {
+            "name": "copy_id",
+            "type": "integer",
+            "format": "default",
+            "description": "Identifier of a copy of the film"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "format": "default",
+            "description": "Title of the film"
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "format": "default",
+            "description": "Country of production (SZ = Switzerland)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "format": "default",
+            "description": "Year of publication"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "format": "default",
+            "description": "Type of film (documentary, animation, etc.)"
+          },
+          {
+            "name": "length",
+            "type": "integer",
+            "format": "default",
+            "description": "The length of the film, in minutes"
+          },
+          {
+            "name": "crew",
+            "type": "string",
+            "format": "default",
+            "description": "Crew members (in most cases, director)"
+          },
+          {
+            "name": "text_de",
+            "type": "string",
+            "format": "default",
+            "description": "Description, in German"
+          },
+          {
+            "name": "text_en",
+            "type": "string",
+            "format": "default",
+            "description": "Description, in English"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "film",
+    "switzerland"
+  ],
+  "name": "lichtspiel-filme",
+  "title": "Lichtspiel Filme",
+  "description": "A database of films from the Lichtspiel collection in Bern, Switzerland - obtained with permission",
+  "homepage": "http://www.lichtspiel.ch/en/datenbank/film/",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Oleg Lavrovsky",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ]
+}
