@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "resource1",
-      "path": "lichtspiel.csv",
+      "name": "films",
+      "path": "data/lichtspiel.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
