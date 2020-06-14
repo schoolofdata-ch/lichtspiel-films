@@ -1,10 +1,11 @@
 from csv import DictWriter, QUOTE_MINIMAL
 from urllib.parse import urlencode
 from lxml import etree
+from os import path
 
-FILENAME = "import/MIDAS_Export_26102018.xml"
-
-OUTPUT = "data/lichtspiel.csv"
+BASE_PATH = "data"
+FILENAME = "MIDAS_Export_1062020.xml"
+OUTPUT = "lichtspiel.csv"
 
 SCHEMA = {
 	'id':		None, 
@@ -21,16 +22,11 @@ SCHEMA = {
 
 MAX_ROWS = 500000
 
+tree = etree.parse(path.join(BASE_PATH, FILENAME))
 
-#import xmltodict, json
-#with open(FILENAME, 'r') as data:
-	#o = xmltodict.parse(data.read())
-	#print(json.dumps(o))
+outfname = path.join(BASE_PATH, OUTPUT)
 
-
-tree = etree.parse(FILENAME)
-
-with open(OUTPUT, 'w+') as csvout:
+with open(outfname, 'w+', encoding="utf-8", newline='') as csvout:
 	writer = DictWriter(csvout, fieldnames=SCHEMA.keys(),
 		delimiter=',', quotechar='"', quoting=QUOTE_MINIMAL)
 	writer.writeheader()
